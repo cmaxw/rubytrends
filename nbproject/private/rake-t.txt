@@ -1,0 +1,2 @@
+(in C:/Documents and Settings/Chuck/My Documents/My Projects/drmax/drmax)
+Missing the Rails 2.0.2 gem. Please `gem install -v=2.0.2 rails`, update your RAILS_GEM_VERSION setting in config/environment.rb for the Rails version you do have installed, or comment out RAILS_GEM_VERSION to use the latest version installed.

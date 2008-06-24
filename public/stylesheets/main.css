@@ -1,0 +1,50 @@
+/* 
+    Document   : main
+    Created on : Jun 21, 2008, 7:09:02 AM
+    Author     : Chuck
+    Description:
+        Control the look and feel for drmaxwood.com.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+body {
+  background-color: #3399CC;
+}
+
+div.header {
+  font: 15px bold black arial;
+}
+
+root { 
+    display: block;
+}
+
+/*---Page Header---*/
+#page_header {
+  font: normal 30px black arial;
+  width: 100%;
+}
+
+#header_address {
+  float:left;
+}
+
+#header_photo {
+  float:right;
+}
+
+/*---Menu---*/
+div.menu {
+  width: 100%
+}
+
+/*---Main Page Section---*/
+#main_section {
+  width:100%;
+}
