@@ -1,0 +1,156 @@
+.block { margin-bottom: 2.5em; }
+.block h2 {
+  font-size: 12pt;
+  color: #00446b;
+  letter-spacing: -1px;
+  margin-top: 0.4em;
+}
+.block ul li, .block ol li {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.2em 0;
+}
+
+
+/* User block */
+.block-user ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.block-user ul.menu li {
+  margin-left: 0;
+  list-style-image: none;
+  list-style-type: none;
+  padding-left: 16px;
+}
+.block-user ul.menu li.leaf {
+  background: transparent url("../img/block_menu_leaf.gif") no-repeat left 0.3em;
+}
+.block-user ul.menu li.collapsed {
+  background: transparent url("../img/block_menu_collapsed.gif") no-repeat left 0.3em;
+}
+.block-user ul.menu li.expanded {
+  background: transparent url("../img/block_menu_expanded.gif") no-repeat left 0.3em;
+}
+.block-user ul.menu ul li { border-bottom: none; }
+
+/* Drigg blocks */
+.block-drigg_blocks ol,
+.block-drigg_blocks ul {
+  margin: 0;
+  padding: 0;
+}
+.block-drigg_blocks ul { list-style: none; }
+.block-drigg_blocks ul li { clear: left; }
+.block-drigg_blocks ul li:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+.block-drigg_blocks ul li,
+.block-drigg_blocks ul li {
+  #display: inline-block;
+  _height: 1px;
+}
+/* Hides from IE-mac \*/
+.block-drigg_blocks ul li,
+.block-drigg_blocks ul li { display: block; }
+/* End hide from IE-mac */
+
+.block-drigg_blocks ul li span.score {
+  display: block;
+  float: left;
+  margin: 0.2em 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 11pt;
+  letter-spacing: -1px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+}
+.block-drigg_blocks ul li span.score {
+  background: transparent url("../img/block_scorebg_upcoming.gif");
+  color: #333;
+}
+.block-drigg_blocks ul li.promoted span.score {
+  background: transparent url("../img/block_scorebg_published.gif");
+  color: #960;
+}
+.block-drigg_blocks ul li a {
+  display: block;
+  margin-left: 35px; /* Remove if you plan to hide the votes */
+}
+
+.block-drigg_blocks ul.top-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.block-drigg_blocks ul.top-menu li {
+  display: list-item;
+  position: relative;
+}
+.block-drigg_blocks ul.top-menu li a {
+  display: inline;
+  margin-left: 0;
+}
+.block-drigg_blocks ul.top-menu li span.rss {
+  position: absolute;
+  right: 0;
+  top: 0.2em;
+  font-size: 8pt;
+}
+.block-drigg_blocks ul.top-menu li span.rss img { margin-bottom: -2px; }
+.block-drigg_blocks ul.top-menu li span.rss a {
+  text-decoration: none;
+  color: #c96;
+}
+.block-drigg_blocks ul.top-menu li span.rss a:hover { color: #c60; }
+.block-drigg_blocks ul.drigg-best-upcoming-scoops,
+.block-drigg_blocks ul.drigg-best-published-scoops {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.block-drigg_blocks ul.drigg-best-upcoming-scoops li,
+.block-drigg_blocks ul.drigg-best-published-scoops li { clear: left; }
+
+.block-drigg_blocks ul.drigg-best-upcoming-scoops li:after,
+.block-drigg_blocks ul.drigg-best-published-scoops li:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+.block-drigg_blocks ul.drigg-best-upcoming-scoops li,
+.block-drigg_blocks ul.drigg-best-published-scoops li {
+  #display: inline-block;
+  _height: 1px;
+}
+/* Hides from IE-mac \*/
+.block-drigg_blocks ul.drigg-best-upcoming-scoops li,
+.block-drigg_blocks ul.drigg-best-published-scoops li { display: block; }
+/* End hide from IE-mac */
+
+.block-drigg_blocks span.drigg-best-karma-comments-link {
+  margin-top: 0.2em;
+  display: block;
+  text-align: right;
+}
+.block-drigg_blocks ol.drigg-best-karma-users {
+  list-style-position: inside;
+  font-size: 10pt;
+}
+.block-drigg_blocks ol.drigg-best-karma-users li * {
+  display: inline;
+  vertical-align: text-bottom;
+  font-size: 9pt;
+}
+.block-drigg_blocks ol.drigg-best-karma-users li img {
+  width: 15px;
+  height: 15px;
+}

@@ -1,0 +1,2448 @@
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 109ms (View: 107, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:33) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:16:35) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/favicon.ico" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:25:40) [GET]
+Rendering template within layouts/application
+Rendering site/index
+
+ActionView::TemplateError (No expansion found for :defaults) on line #10 of app/views/layouts/application.html.erb:
+7: 	<link rel="alternate" type="application/rss+xml" title="Lost Jungles RSS" href="http://www.lostjungles.com/feed/published/All" />
+8: 
+9: 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+10: 	<%= stylesheet_link_tag :defaults %>
+11: 	<style type="text/css" media="all">@import "/modules/node/node.css";</style>
+12: 	<style type="text/css" media="all">@import "/modules/system/defaults.css";</style>
+13: 	<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (120.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 52ms (View: 50, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:28:06) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 55ms (View: 53, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:02) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:03) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:31:03) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:34:04) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:04) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_categoriesbg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:05) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:34:06) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:42:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 69ms (View: 2, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:38) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:42:38) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/modules/node/node.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/defaults.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/modules/system/system.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/widgets/default/extra_voting_forms_all.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/modules/user/user.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/tagadelic/tagadelic.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/jquery.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/drupal.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/drigg/drigg/drigg.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/modules/extra_voting_forms/extra_voting_forms.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/collapse-fix.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/compat-1.0.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:43:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 114ms (View: 112, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:55) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:46:56) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:54:35) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:36) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:54:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:54:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:18) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:18) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:24) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:55:28) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:56:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/css/header_logo.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 18:57:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 19:29:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:37) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:39) [GET]
+
+ActionController::RoutingError (No route matches "/Libraries" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 19:29:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 19:36:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:36:42) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 19:45:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_submitbtn.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 19:45:13) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:51:49) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 20:53:26) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 52ms (View: 51, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 20:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 51ms (View: 49, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:10:44) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 21:23:19) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 113ms (View: 112, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-leaf.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 21:32:39) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:31:10) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 113ms (View: 111, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:31:10) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:31:10) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:31:10) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:31:10) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:31:11) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all//themes/drigg_theme/img/block_feedicon.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:38:33) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 113ms (View: 111, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:38:33) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:38:33) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:38:33) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:39:25) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 49ms (View: 47, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:39:26) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:39:26) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:39:26) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:47:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:24) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:24) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:24) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:47:52) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:52) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:47:52) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:48:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:13) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:13) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:13) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:48:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 74ms (View: 72, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:43) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:43) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:43) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:48:52) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:52) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:52) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:48:52) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:49:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 75ms (View: 73, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:50:23) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/sites/all/themes/drigg_theme/img/drigg_80_15.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-02 22:51:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:51:38) [GET]
+
+ActionController::RoutingError (No route matches "/img/header_titlebg.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-02 22:51:38) [GET]
+
+ActionController::RoutingError (No route matches "/misc/menu-collapsed.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

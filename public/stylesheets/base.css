@@ -1,0 +1,413 @@
+/* -- Base ---------------------------------------------------------------- */
+body {
+  margin: 0;
+  background-color: #fff;
+  font: 9pt/1.5em Arial, Tahoma, Verdana, "Lucida Grande", sans-serif;
+  color: #333;
+}
+#container {
+  margin: 0 auto;
+  min-width: 760px;
+  max-width: 1260px;
+}
+
+/* Links */
+a {
+  color: #1b81ca;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* Clearfix */
+.clearfix:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+.clearfix {
+  #display: inline-block;
+  _height: 1px;
+}
+/* Hide from IE Mac \*/
+.clearfix { display: block; }
+/* End hide from IE Mac */
+
+/* -- Header -------------------------------------------------------------- */
+#header_title {
+  background: url("../img/header_titlebg.gif") repeat-x top left;
+  height: 100px;
+  padding: 0 20px;
+}
+#header_title h1 {
+  margin: 0;
+  width: 220px;
+  height: 100px;
+}
+#header_title h1 a {
+  display: block;
+  width: 500px;
+  height: 100px;
+  background: url("/images/css/header_logo.jpg") no-repeat top left;
+  text-indent: -1000em;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+
+/* Drupal Primary Links Menu */
+ul.primary-links {
+  position: relative;
+  height: 25px;
+  top: 0;
+  float: right;
+}
+
+ul.primary-links li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-image: none;
+}
+
+ul.primary-links li a, ul.primary-links li a:link, ul.primary-links li a:visited {
+  display: block;
+  margin: 0 1em;
+  padding: .4em 0 0;
+  color: #00446b;
+  text-decoration:underline;
+}
+
+/* Search */
+#header_search {
+  clear: right;
+  position: relative;
+  top: 30px;
+  float: right;
+}
+#header_search form {
+  margin: 0;
+  width: 180px;
+}
+#header_search form * { vertical-align: top; }
+#header_search form input {
+  margin: 0;
+  display: block;
+  float: left;
+}
+#header_search form input.form-text {
+  border: 0;
+  background-color: #fff;
+  height: 17px;
+  width: 139px;
+  margin-right: 1px;
+  padding: 1px 0 0 1px;
+  border: 1px solid #66a6c8;
+  color: #333;
+  outline: none;
+}
+#header_search p {
+  clear: left;
+  margin: 0;
+  text-align: right;
+  font-size: 8pt;
+}
+#header_search form input.form-submit {
+  border: 0;
+  padding: 0;
+  background-image: url("../img/header_searchbtn.gif");
+  width: 30px;
+  height: 20px;
+  overflow: hidden;
+  text-indent: -1000em;
+  word-spacing: 10em;
+}
+
+/* Header login and submit buttons */
+#header_categories a.drigg-login,
+#header_categories a.drigg-submit {
+  float: right;
+  margin-left: 10px;
+  display: block;
+  border: 1px solid #fff;
+  border-top: 0;
+  border-bottom: 0;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 30px;
+  text-indent: -1000em;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+}
+#header_categories a.drigg-login {
+  width: 117px;
+  background-image: url("../img/header_loginbtn.gif");
+}
+#header_categories a.drigg-submit {
+  width: 115px;
+  background-image: url("../img/header_submitbtn.gif");
+}
+#header_categories a.drigg-login:hover,
+#header_categories a.drigg-submit:hover { background-position: 0 -30px; }
+#header_categories a.drigg-login:active,
+#header_categories a.drigg-submit:active { background-position: 0 -60px; }
+
+/* Header categories */
+#header_categories {
+  height: 30px;
+  padding: 0 20px;
+  background: url("/images/css/header_categoriesbg.gif") repeat-x top left;
+  background-color:gray;
+}
+#header_categories ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+}
+#header_categories ul li { display: inline; }
+#header_categories ul li a {
+  float: left;
+  display: block;
+  padding: 0 0.5em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+#header_categories ul li a.active {
+  margin-top: 3px;
+  line-height: 27px;
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+
+#header_subcategories {
+  height: 30px;
+  padding: 0 20px;
+  /*background: url("../img/header_categoriesbg.gif") repeat-x top left;*/
+  background-color:gray;
+}
+#header_subcategories ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+}
+#header_subcategories ul li { display: inline; }
+#header_subcategories ul li a {
+  float: left;
+  display: block;
+  padding: 0 0.5em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+#header_subcategories ul li a.active {
+  margin-top: 3px;
+  line-height: 27px;
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+
+
+#header_subcategories2 {
+  height: 30px;
+  padding: 0 20px;
+  /*background: url("../img/header_categoriesbg.gif") repeat-x top left;*/
+  background-color:green;
+}
+#header_subcategories2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+}
+#header_subcategories2 ul li { display: inline; }
+#header_subcategories2 ul li a {
+  float: left;
+  display: block;
+  padding: 0 0.5em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+#header_subcategories2 ul li a.active {
+  margin-top: 3px;
+  line-height: 27px;
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+
+
+
+
+#header_subcategories3 {
+  height: 30px;
+  padding: 0 20px;
+  /*background: url("../img/header_categoriesbg.gif") repeat-x top left;*/
+  background-color:gray;
+}
+#header_subcategories3 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 30px;
+  line-height: 30px;
+}
+#header_subcategories3 ul li { display: inline; }
+#header_subcategories3 ul li a {
+  float: left;
+  display: block;
+  padding: 0 0.5em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+}
+#header_subcategories3 ul li a.active {
+  margin-top: 3px;
+  line-height: 27px;
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+
+/* Header breadcrumb */
+#header_breadcrumb {
+  clear: left;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  font-size: 8pt;
+  color: #666;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* -- Content layout ------------------------------------------------------ */
+#content { padding: 20px 220px; }
+#content .column {
+  position: relative;
+  float: left;
+}
+#content_center { width: 100%; }
+#content_left {
+  width: 180px;
+  padding: 0 20px;
+  margin-left: -100%;
+  left: 220px;
+}
+#content > #content_left {
+  left: -220px;
+  margin-left: expression(document.all.content_center.offsetWidth * -1);
+}
+#content_right {
+  width: 180px;
+  padding: 0 20px;
+  margin-right: -220px;
+}
+
+/* -- Content styles ------------------------------------------------------ */
+
+/* Control bar */
+#content_center div.controlbar h1 {
+  float: left;
+  line-height: 1.2em;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+#content_center div.controlbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#content_center div.controlbar ul li { display: inline; }
+#content_center div.controlbar ul.drigg-viewtype {
+  float: right;
+  font-size: 11pt;
+  line-height: 20pt;
+}
+#content_center div.controlbar ul.drigg-viewtype li a {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  padding: 0px 5px 5px 5px;
+}
+#content_center div.controlbar ul.drigg-viewtype li.active a {
+  background-color: #f3f9fc;
+  color: #00446b;
+}
+
+#content_center div.controlbar ul.drigg-order {
+  background-color: #f3f9fc;
+  padding: 0.5em;
+  clear: both;
+}
+#content_center div.controlbar ul.drigg-order li a {
+  padding: 0.2em 0.5em;
+  margin-right: 0.5em;
+}
+#content_center div.controlbar ul.drigg-order li.active a {
+  background-color: #1b81ca;
+  color: #fff;
+}
+
+/* Basic tags */
+#content_center h1 {
+  font-size: 16pt;
+  font-weight: normal;
+  color: #00446b;
+  letter-spacing: -1px;
+  margin-top: 0;
+}
+#content_center h2 {
+  font-size: 13pt;
+  line-height: 1.3em;
+  color: #666;
+}
+#content_center table th {
+  padding: 0.5em;
+  background-color: #e8f2fa;
+  border-bottom: 0;
+}
+#content_center table tbody { border-top: none; }
+#content_center table tr {
+  padding: 0;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+#content_center table tr.even { background-color: #f3f9fc; }
+#content_center table td { padding: 0.5em; }
+#content_center table td.active { background-color: #ffc; }
+
+/* Pager */
+#content_center div.pager {
+  clear: both;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+#content_center div.pager a {
+  border: 1px solid #ccc;
+  padding: 0.1em 0.5em;
+  margin: 0 1px;
+  color: #666;
+}
+#content_center div.pager strong {
+  border: 1px solid #ddd;
+  padding: 0.1em 0.5em;
+  margin: 0 1px;
+  color: #333;
+  background-color: #f3f9fc;
+}
+
+/* -- Footer -------------------------------------------------------------- */
+#footer {
+  clear: both;
+  padding: 20px;
+}
