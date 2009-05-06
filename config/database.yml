@@ -1,48 +1,59 @@
-# MySQL.  Versions 4.1 and 5.0 are recommended.
-#
-# Install the MySQL driver:
-#   gem install mysql
-# On Mac OS X:
-#   sudo gem install mysql -- --with-mysql-dir=/usr/local/mysql
-# On Mac OS X Leopard:
-#   sudo env ARCHFLAGS="-arch i386" gem install mysql -- --with-mysql-config=/usr/local/mysql/bin/mysql_config
-#       This sets the ARCHFLAGS environment variable to your native architecture
-# On Windows:
-#   gem install mysql
-#       Choose the win32 build.
-#       Install MySQL and put its /bin directory on your path.
-#
-# And be sure to use new-style password hashing:
-#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 development:
-  adapter: mysql
-  encoding: utf8
-  reconnect: false
-  database: ninjity_development
+  # Sqlite Settings
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  timeout: 5000
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
+  # Mysql Settings
+  # adapter: mysql
+  # encoding: utf8
+  # database: bort_development
+  # username: root
+  # password:
+  # pool: 5
+  
 test:
-  adapter: mysql
-  encoding: utf8
-  reconnect: false
-  database: ninjity_test
+  # Sqlite Settings
+  adapter: sqlite3
+  database: db/test.sqlite3
   pool: 5
-  username: root
-  password:
-  socket: /tmp/mysql.sock
+  timeout: 5000
 
-production:
-  adapter: mysql
-  encoding: utf8
-  reconnect: false
-  database: ninjity_production
+  # Mysql Settings
+  # adapter: mysql
+  # encoding: utf8
+  # database: bort_test
+  # username: root
+  # password:
+  # pool: 5
+  
+staging:
+  # Sqlite Settings
+  adapter: sqlite3
+  database: db/staging.sqlite3
   pool: 5
-  username: root
-  password: 
-  socket: /tmp/mysql.sock
+  timeout: 5000
+
+  # Mysql Settings
+  # adapter: mysql
+  # encoding: utf8
+  # database: bort_staging
+  # username: root
+  # password:
+  # pool: 5
+  
+production:
+  # Sqlite Settings
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
+
+  # Mysql Settings
+  # adapter: mysql
+  # encoding: utf8
+  # database: bort_production
+  # username: root
+  # password:
+  # pool: 5
