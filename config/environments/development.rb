@@ -18,5 +18,5 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 config.gem "thoughtbot-factory_girl", :lib => 'factory_girl', :source => 'http://gems.github.com'
-config.gem "rspec", :version => '1.2.2', :lib => 'spec'
-config.gem "rspec-rails", :version => '1.2.2', :lib => false
+config.gem "rspec", :version => '1.2.6', :lib => 'spec'
+config.gem "rspec-rails", :version => '1.2.6', :lib => false
