@@ -17,7 +17,7 @@ common: &default_settings
   # RPM will then auto-map instances of your application into a RPM "application"
   # on your home dashboard page. This setting does not prevent you from manually
   # defining applications.
-  app_name: My Application
+  app_name: Ninjity
 
   # the 'enabled' setting is used to turn on the NewRelic Agent.  When false,
   # your application is not instrumented and the Agent does not start up or
