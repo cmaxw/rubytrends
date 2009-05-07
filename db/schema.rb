@@ -11,7 +11,6 @@
 
 ActiveRecord::Schema.define(:version => 20090507031850) do
 
-<<<<<<< HEAD:db/schema.rb
   create_table "items", :force => true do |t|
     t.string   "name"
     t.integer  "task_id"
