@@ -13,14 +13,16 @@
     <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
   <tr>
-    <td colspan="3" style="padding-left:1em;"> 
-    <% for milestone in project.milestones %>
-      <%= milestone.name %>
+    <td style="padding-bottom:1.5em;padding-left:2em;"> 
+<ul> 
+   <% for milestone in project.milestones %>
+    <li>  <%= milestone.name %>
        <ul style="margin-left:1em;padding-left:5px;"><% for task in milestone.tasks %>
        <li><%= task.name %></li>
-       <% end %> </ul>
-    <% end %>
-    <td >&nbsp;</td></tr>
+       <% end %> </ul></li>
+   <% end %>
+   </ul> </td>
+    <td colspan="3" >&nbsp;</td></tr>
 <% end %>
 </table>
 
