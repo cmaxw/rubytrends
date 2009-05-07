@@ -11,7 +11,11 @@
 
 ActiveRecord::Schema.define(:version => 20090507031850) do
 
+<<<<<<< HEAD:db/schema.rb
   create_table "assets", :force => true do |t|
+=======
+  create_table "items", :force => true do |t|
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:db/schema.rb
     t.string   "name"
     t.integer  "task_id"
     t.datetime "created_at"

@@ -1,6 +1,10 @@
 development: &non_production_settings
   site_url: http://localhost:3000
+<<<<<<< HEAD:config/settings.yml
   site_name: Concake
+=======
+  site_name: Bort
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:config/settings.yml
   admin_email: bort@bort.com
   
 test:
@@ -8,10 +12,19 @@ test:
 
 staging:
   site_url: http://staging.example.com
+<<<<<<< HEAD:config/settings.yml
   site_name: Concake
   admin_email: bort@bort.com  
   
 production:
   site_url: http://concake.heroku.com
   site_name: Concake
+=======
+  site_name: Bort
+  admin_email: bort@bort.com  
+  
+production:
+  site_url: http://www.example.com
+  site_name: Bort
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:config/settings.yml
   admin_email: bort@bort.com

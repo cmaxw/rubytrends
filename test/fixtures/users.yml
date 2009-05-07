@@ -1,3 +1,4 @@
+<<<<<<< HEAD:test/fixtures/users.yml
 --- 
 users_001: 
   salt: 767b2a35cb42974e92ba3e57062deae041fc4ca3
@@ -31,3 +32,13 @@ users_002:
   created_at: 2009-05-07 04:27:49
   state: pending
   email: chuck@lostjungles.com
+=======
+admin:
+  id: 1
+  login: admin
+  email: admin@example.com
+  salt: 7e3041ebc2fc05a40c60028e2c4901a81035d3cd
+  crypted_password: 00742970dc9e6319f8019fd54864d3ea740f04b1 # test
+  # activation_code: adminscode # only if you're activating new signups
+  created_at: <%= 1.days.ago.to_s :db %>
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:test/fixtures/users.yml

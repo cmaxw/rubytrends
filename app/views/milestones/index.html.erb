@@ -10,7 +10,11 @@
 <% for milestone in @milestones %>
   <tr>
     <td><%=h milestone.name %></td>
+<<<<<<< HEAD:app/views/milestones/index.html.erb
     <td><%=h milestone.project.name %></td>
+=======
+    <td><%=h milestone.project %></td>
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:app/views/milestones/index.html.erb
     <td><%=h milestone.percentage %></td>
     <td><%= link_to 'Show', milestone %></td>
     <td><%= link_to 'Edit', edit_milestone_path(milestone) %></td>

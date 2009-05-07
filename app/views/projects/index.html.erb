@@ -12,6 +12,7 @@
     <td><%= link_to 'Edit', edit_project_path(project) %></td>
     <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
+<<<<<<< HEAD:app/views/projects/index.html.erb
   <tr>
     <td style="padding-bottom:1.5em;padding-left:2em;"> 
 <ul> 
@@ -23,6 +24,14 @@
    <% end %>
    </ul> </td>
     <td colspan="3" >&nbsp;</td></tr>
+=======
+    <% for milestone in project.milestones %>
+  <tr>
+    <td> -  
+      <%= milestone.name %>
+    <td colspan="3">&nbsp;</td></tr>
+    <% end %>
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:app/views/projects/index.html.erb
 <% end %>
 </table>
 

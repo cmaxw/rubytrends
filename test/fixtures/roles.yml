@@ -1,4 +1,13 @@
+<<<<<<< HEAD:test/fixtures/roles.yml
 --- 
 roles_001: 
   name: admin
   id: "1"
+=======
+admin_role:
+  id: 1
+  name: admin
+user_role:
+  id: 2
+  name: user
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:test/fixtures/roles.yml

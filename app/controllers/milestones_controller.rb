@@ -37,7 +37,10 @@ class MilestonesController < ApplicationController
   # GET /milestones/1/edit
   def edit
     @milestone = Milestone.find(params[:id])
+<<<<<<< HEAD:app/controllers/milestones_controller.rb
     load_projects
+=======
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:app/controllers/milestones_controller.rb
   end
 
   # POST /milestones

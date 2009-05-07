@@ -1,5 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
+<<<<<<< HEAD:config/routes.rb
   map.resources :assets
+=======
+  map.resources :items
+>>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:config/routes.rb
 
   map.resources :tasks
 
