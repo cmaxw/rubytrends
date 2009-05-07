@@ -10,7 +10,7 @@
 <% for milestone in @milestones %>
   <tr>
     <td><%=h milestone.name %></td>
-    <td><%=h milestone.project %></td>
+    <td><%=h milestone.project.name %></td>
     <td><%=h milestone.percentage %></td>
     <td><%= link_to 'Show', milestone %></td>
     <td><%= link_to 'Edit', edit_milestone_path(milestone) %></td>
