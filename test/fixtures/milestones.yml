@@ -1,0 +1,22 @@
+--- 
+milestones_002: 
+  name: Advanced UI
+  updated_at: 2009-05-07 04:30:14
+  project_id: "1"
+  id: "2"
+  percentage: "5"
+  created_at: 2009-05-07 04:30:14
+milestones_003: 
+  name: Logo & Site Design
+  updated_at: 2009-05-07 04:30:25
+  project_id: "1"
+  id: "3"
+  percentage: "5"
+  created_at: 2009-05-07 04:30:25
+milestones_001: 
+  name: Scaffold Complete
+  updated_at: 2009-05-07 04:29:50
+  project_id: "1"
+  id: "1"
+  percentage: "5"
+  created_at: 2009-05-07 04:20:29

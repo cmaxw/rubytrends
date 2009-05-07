@@ -1,6 +1,6 @@
-class CreateItems < ActiveRecord::Migration
+class CreateAssets < ActiveRecord::Migration
   def self.up
-    create_table :items do |t|
+    create_table :assets do |t|
       t.string :name
       t.references :task
 
@@ -9,6 +9,6 @@ class CreateItems < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :items
+    drop_table :assets
   end
 end
