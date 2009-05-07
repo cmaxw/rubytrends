@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.xml
   def index
-    @projects = Project.find(:all, :include => :milestone)
+    @projects = Project.find(:all, :include => :milestones)
 
     respond_to do |format|
       format.html # index.html.erb
