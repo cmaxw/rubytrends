@@ -1,0 +1,26 @@
+<h1>Projects</h1>
+
+<table>
+  <tr>
+    <th>Project</th>
+  </tr>
+
+<% for project in @projects %>
+  <tr>
+    <td><%=h project.name %></td>
+    <td><%= link_to 'Show', project %></td>
+    <td><%= link_to 'Edit', edit_project_path(project) %></td>
+    <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+    <% for milestone in project.milestones %>
+  <tr>
+    <td> -  
+      <%= milestone.name %>
+    <td colspan="3">&nbsp;</td></tr>
+    <% end %>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New project', new_project_path %>
