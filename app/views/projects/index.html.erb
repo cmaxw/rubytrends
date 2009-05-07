@@ -12,12 +12,15 @@
     <td><%= link_to 'Edit', edit_project_path(project) %></td>
     <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
-    <% for milestone in project.milestones %>
   <tr>
-    <td> -  
+    <td colspan="3" style="padding-left:1em;"> 
+    <% for milestone in project.milestones %>
       <%= milestone.name %>
-    <td colspan="3">&nbsp;</td></tr>
+       <ul style="margin-left:1em;padding-left:5px;"><% for task in milestone.tasks %>
+       <li><%= task.name %></li>
+       <% end %> </ul>
     <% end %>
+    <td >&nbsp;</td></tr>
 <% end %>
 </table>
 
