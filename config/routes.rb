@@ -1,4 +1,12 @@
-ActionController::Routing::Routes.draw do |map| 
+ActionController::Routing::Routes.draw do |map|
+  map.resources :items
+
+  map.resources :tasks
+
+  map.resources :milestones
+
+  map.resources :projects
+ 
   # Restful Authentication Rewrites
   map.logout '/logout', :controller => 'sessions', :action => 'destroy'
   map.login '/login', :controller => 'sessions', :action => 'new'
