@@ -9,25 +9,42 @@
 		<meta name="robots" content="all" />	
 		<meta name="resource-type" content="document" />
 		<meta name="MSSmartTagsPreventParsing" content="true" />
-		<%= stylesheet_link_tag :all %>
-		<%= javascript_include_tag :all %>
+		<%= stylesheet_link_tag :all, :cache => "cache/all" %>
+		<%= javascript_include_tag :all, :cache => "cache/all" %>
 	</head>
 	<body>
-		<div id="container">
-			<div id="header">
+      <h1><a href="index.html">Wep App Theme</a></h1>
+      <div id="user-navigation">
 				<ul>
 					<% if logged_in? %>
+					<li><%= link_to 'Profile', logout_path %></li>
 					<li><%= link_to 'Logout', logout_path %></li>
 					<% else %>
 					<li><%= link_to 'Login', login_path %></li>
 					<li><%= link_to 'Signup', signup_path %></li>
 					<% end %>
-				</ul>
-			</div>
-			<div id="content">
+         </ul>
+        <div class="clear"></div>
+      </div>      
+      <div id="main-navigation">
+        <ul>
+          <li class="first"><a href="#block-text">Main Page</a></li>
+          <li class="active"><a href="#block-text">Active</a></li>          
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>    
+    <div id="wrapper">
+      <div id="main">	
 				<%= flash_messages %>
 				<%= yield :layout %>
-			</div>
-		</div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="block">
+        <p>Copyright &copy; 2009 Your Site.</p>
+      </div>      
+    </div>
+  </div>
 	</body>
 </html>
