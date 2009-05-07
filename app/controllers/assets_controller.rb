@@ -1,4 +1,8 @@
 class AssetsController < ApplicationController
+  def load_tasks
+    @tasks ||= Task.all_to_select
+  end
+
   # GET /assets
   # GET /assets.xml
   def index
@@ -14,7 +18,6 @@ class AssetsController < ApplicationController
   # GET /assets/1.xml
   def show
     @asset = Asset.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @asset }
@@ -25,7 +28,7 @@ class AssetsController < ApplicationController
   # GET /assets/new.xml
   def new
     @asset = Asset.new
-
+    load_tasks
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @asset }
@@ -35,6 +38,7 @@ class AssetsController < ApplicationController
   # GET /assets/1/edit
   def edit
     @asset = Asset.find(params[:id])
+    load_tasks
   end
 
   # POST /assets

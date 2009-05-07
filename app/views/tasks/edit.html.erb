@@ -9,7 +9,7 @@
   </p>
   <p>
     <%= f.label :milestone %><br />
-    <%= f.text_field :milestone %>
+    <%= f.select :milestone_id, @milestones %>
   </p>
   <p>
     <%= f.submit "Update" %>

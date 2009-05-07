@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @asset.name %>
+</p>
+
+<p>
+  <b>Task:</b>
+  <%=h @asset.task.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_asset_path(@asset) %> |
+<%= link_to 'Back', assets_path %>

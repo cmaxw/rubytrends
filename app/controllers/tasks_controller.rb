@@ -1,4 +1,8 @@
 class TasksController < ApplicationController
+  def load_milestones
+    @milestones ||= Milestone.all_to_select
+  end
+  
   # GET /tasks
   # GET /tasks.xml
   def index
@@ -14,7 +18,6 @@ class TasksController < ApplicationController
   # GET /tasks/1.xml
   def show
     @task = Task.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @task }
@@ -25,6 +28,7 @@ class TasksController < ApplicationController
   # GET /tasks/new.xml
   def new
     @task = Task.new
+    load_milestones
 
     respond_to do |format|
       format.html # new.html.erb
@@ -35,6 +39,7 @@ class TasksController < ApplicationController
   # GET /tasks/1/edit
   def edit
     @task = Task.find(params[:id])
+    load_milestones
   end
 
   # POST /tasks
