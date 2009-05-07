@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @milestone.name %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%=h @milestone.project %>
+</p>
+
+<p>
+  <b>Percentage:</b>
+  <%=h @milestone.percentage %>
+</p>
+
+
+<%= link_to 'Edit', edit_milestone_path(@milestone) %> |
+<%= link_to 'Back', milestones_path %>
