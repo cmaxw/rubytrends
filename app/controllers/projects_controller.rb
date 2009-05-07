@@ -2,11 +2,8 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.xml
   def index
-<<<<<<< HEAD:app/controllers/projects_controller.rb
     @projects = Project.find(:all, :include => :milestones)
-=======
-    @projects = Project.find(:all, :include => :milestone)
->>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:app/controllers/projects_controller.rb
+
 
     respond_to do |format|
       format.html # index.html.erb
@@ -17,11 +14,7 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.xml
   def show
-<<<<<<< HEAD:app/controllers/projects_controller.rb
-    @project = Project.find(params[:id])
-=======
     @project = Project.find(params[:id], :include => [:milestones])
->>>>>>> 842ffe4f2ef88bfa88337ee09ea3858e4f05d24c:app/controllers/projects_controller.rb
 
     respond_to do |format|
       format.html # show.html.erb
