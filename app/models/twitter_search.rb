@@ -8,6 +8,7 @@ class TwitterSearch
   end
 
   def get_links
+    puts "Searching for #{@search_string}"
     search.each do |tweet|
       if search_urls = tweet.text.match(/(http:\/\/[^\s]+)/)
         search_urls.captures.each do |path|
