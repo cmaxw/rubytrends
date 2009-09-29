@@ -1,0 +1,8 @@
+<h1>Site#index</h1>
+<p>Find me in app/views/site/index.html.erb</p>
+
+<ul>
+<% @urls.each do |url| %>
+  <li><%= link_to url.title, url.url %>(<%= url.count %>) </li>
+<% end %>
+</ul>
