@@ -19,7 +19,8 @@ test:
 
 production:
   adapter: mysql
-  database: rubytrends
-  username: root
+  database: trends
+  username: trends
+  password: trends
   pool: 5
   timeout: 5000
