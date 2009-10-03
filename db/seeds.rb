@@ -6,3 +6,4 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
 UrlSource.create(:name => "Twitter")
+SearchTerm.create(:name => "ruby")
