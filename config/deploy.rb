@@ -6,6 +6,7 @@ set :user, "root"
 
 set :scm, :git
 set :deploy_via, :remote_cache
+set :use_sudo, false
 
 role :web, "#{application}"                          # Your HTTP server, Apache/etc
 role :app, "#{application}"                          # This may be the same as your `Web` server
@@ -17,7 +18,7 @@ role :db,  "#{application}", :primary => true # This is where Rails migrations w
 
 after :deploy, "gems:install"
 after "gems:install", "deploy:migrate"
-before :deploy, "daemons:stop"
+#before :deploy, "daemons:stop"
 after "deploy:migrate", "daemons:start"
 
 namespace :daemons do
