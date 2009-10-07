@@ -14,8 +14,8 @@ while($running) do
   
   # Replace this with your code
   SearchTerm.all.each do |term|
-    ts = TwitterSearch.new(term.name)
-    ts.get_links
+    ds = DeliciousSearch.new(term.name)
+    ds.get_links
   end
 
   sleep 300
