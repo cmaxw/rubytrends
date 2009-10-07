@@ -1,3 +1,15 @@
+# == Schema Information
+# Schema version: 20090929041850
+#
+# Table name: search_terms
+#
+#  id         :integer(4)      not null, primary key
+#  name       :string(255)
+#  list_id    :integer(4)
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class SearchTerm < ActiveRecord::Base
   belongs_to :list
   has_many :search_term_urls

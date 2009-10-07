@@ -4,10 +4,11 @@
   <head>
     <title><%= h(yield(:title) || "Untitled") %></title>
     <%= stylesheet_link_tag 'application' %>
+    <%= stylesheet_link_tag 'grid' %>
     <%= yield(:head) %>
   </head>
   <body>
-    <div id="container">
+    <div id="container" class="container_12">
       <%- flash.each do |name, msg| -%>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <%- end -%>
