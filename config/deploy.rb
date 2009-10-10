@@ -1,4 +1,4 @@
-set :application, "trends.charlesmaxwood.com"
+set :application, "topiclinker.com"
 set :repository,  "git@github.com:woody2shoes/rubytrends.git"
 
 set :deploy_to, "/var/www/trends"
@@ -18,7 +18,7 @@ role :db,  "#{application}", :primary => true # This is where Rails migrations w
 
 after :deploy, "gems:install"
 after "gems:install", "deploy:migrate"
-#before :deploy, "daemons:stop"
+before :deploy, "daemons:stop"
 after "deploy:migrate", "daemons:start"
 
 namespace :daemons do
