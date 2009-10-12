@@ -1,23 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-  <head>
-    <title><%= h(yield(:title) || "Untitled") %></title>
-    <%= stylesheet_link_tag 'application' %>
-    <%= stylesheet_link_tag 'grid' %>
-    <%= yield(:head) %>
-  </head>
-  <body>
-    <div id="container" class="container_12">
-      <%- flash.each do |name, msg| -%>
-        <%= content_tag :div, msg, :id => "flash_#{name}" %>
-      <%- end -%>
-      
-      <%- if show_title? -%>
-        <h1><%=h yield(:title) %></h1>
-      <%- end -%>
-      
-      <%= yield %>
-    </div>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Created by: Reality Software | www.realitysoftware.ca
+Released by: Free Web Design Community | www.designity.org
+Note: This is a free template released under the Creative Commons Attribution 3.0 license, 
+which means you can use it in any way you want provided you keep links to authors intact.
+Don't want our links in template? You can pay a link removal fee: www.realitysoftware.ca/templates/
+You can also purchase a PSD-file for this template.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title></title>
+<link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <%= javascript_include_tag :all %>
+  <%= yield(:head) %>
+</head>
+<body>
+<div id="container">
+<!-- header -->
+<div id="logo"><a href="#">Website Name</a></div>
+
+<div id="menu"><%= yield(:menu) || render_or_default('menu') %></div>
+<!--end header -->
+<!-- main -->
+<div id="main">
+
+<div id="sidebar"><%= yield(:sidebar) || render_or_default('sidebar') %></div>
+
+<div id="text"><%= yield %></div>
+
+</div>
+<!-- end main -->
+<!-- footer -->
+<div id="footer">
+
+<div id="menu_footer"><a href="#">home</a> | <a href="#">about</a> | <a href="#">products</a> | <a href="#">services</a> | <a href="#">pricing</a> | <a href="#">contact</a> | <a href="#">sitemap</a> | <a href="#">testimonials</a> | <a href="#">etc.</a></div>
+
+<div id="left_footer">&copy; Copyright 2009 Your Website</div>
+
+<div id="right_footer">
+<!-- Please do not change or delete these links. Read the license! Thanks. :-) -->
+Design by <a href="http://www.designity.org/">Free Web Design Community</a>
+</div>
+
+</div>
+<!-- end footer -->
+</div>
+<div style="text-align: center; font-size: 0.75em;">Design downloaded from <a href="http://www.freewebtemplates.com/">free website templates</a>.</div></body>
 </html>
