@@ -19,7 +19,7 @@ role :db,  "#{application}", :primary => true # This is where Rails migrations w
 after :deploy, "gems:install"
 after "gems:install", "deploy:migrate"
 before :deploy, "daemons:stop"
-#after "deploy:migrate", "daemons:start"
+after "deploy:migrate", "daemons:start"
 
 namespace :daemons do
   task :start do
