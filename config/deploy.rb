@@ -19,7 +19,7 @@ role :db,  "#{application}", :primary => true # This is where Rails migrations w
 after :deploy, "gems:install"
 after "gems:install", "deploy:migrate"
 before :deploy, "daemons:stop"
-after "deploy:migrate", "daemons:start"
+#after "deploy:migrate", "daemons:start"
 
 namespace :daemons do
   task :start do
@@ -38,6 +38,9 @@ namespace :gems do
 end
 
 namespace :deploy do
+  task :change_permissions do
+    run "chown -R www-data #{deploy_to}"
+  end
   task :start do
     run "/etc/init.d/apache2 start"
   end
