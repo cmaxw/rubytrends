@@ -19,6 +19,7 @@ Rails::Initializer.run do |config|
   config.gem "rspec", :lib => false 
   config.gem "rspec-rails", :lib => false
   config.gem 'daemons'
+  config.gem 'curb'
 
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"

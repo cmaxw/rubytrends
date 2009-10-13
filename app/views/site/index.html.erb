@@ -1,4 +1,4 @@
-<div class="grid_4">
+<div>
 <h1>Twitter</h1>
 
 <ul>
@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-<div class="grid_4">
+<div>
 <h1>Delicious</h1>
 
 <ul>
@@ -18,5 +18,15 @@
 </ul>
 </div>
 
-<div class="clear"></div>
+<div>
+<h1>Reddit</h1>
+
+<ul>
+<% @reddit_urls.each do |url| %>
+  <li><%= link_to url.title, url.url %> </li>
+<% end %>
+</ul>
+</div>
+
+
 
