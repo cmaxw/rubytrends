@@ -1,3 +1,4 @@
+annotate_models=Add schema information (as comments) to model files
 db\:abort_if_pending_migrations=Raises an error if there are pending migrations
 db\:charset=Retrieves the charset for the current environment's database
 db\:collation=Retrieves the collation for the current environment's database
@@ -41,6 +42,7 @@ doc\:clobber_plugins=Remove plugin documentation
 doc\:clobber_rails=Remove rdoc products
 doc\:guides=Generate Rails guides
 doc\:plugins=Generate documentation for all installed plugins
+doc\:plugins\:annotate_models=Generate documentation for the annotate_models plugin
 doc\:plugins\:daemon_generator=Generate documentation for the daemon_generator plugin
 doc\:plugins\:delayed_job=Generate documentation for the delayed_job plugin
 doc\:rails=Build the RDOC HTML Files
@@ -78,6 +80,9 @@ rails\:update\:javascripts=Update your javascripts from your current rails insta
 rails\:update\:scripts=Add new scripts to the application script/ directory
 rails_env=
 routes=Print out all defined routes in match order, with names. Target specific controller with CONTROLLER=x.
+search\:delicious=
+search\:reddit=
+search\:twitter=
 secret=Generate a crytographically secure secret key. This is typically used to generate a secret for cookie sessions.
 spec=Run all specs in spec directory (excluding plugin specs)
 spec\:clobber=

@@ -13,7 +13,8 @@ class SiteController < ApplicationController
       :group => "urls.url",
       :limit => 10)
     @reddit_urls = UrlSource.find_by_name("Reddit").urls.find(:all,
-      :limit => 10)
+      :order => "updated_at DESC",
+      :limit => 10).reverse
   end
 
 end
