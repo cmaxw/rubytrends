@@ -17,9 +17,7 @@ class RedditSearch
     rss = RSS::Parser.parse(content, false)
     rss.items[0, 10].each do |item|
       link = item.description.split("\">[link]").first.split("a href=\"").last
-      url = Url.find(:first, :conditions => {:url_source_id => @url_source.id,
-        :source_identifier => item.guid.content})
-      url ||= Url.create(:url => link,
+      url = Url.create(:url => link,
         :url_source => @url_source,
         :source_identifier => item.guid.content,
         :title => item.title,
