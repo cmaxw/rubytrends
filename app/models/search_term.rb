@@ -12,6 +12,7 @@
 
 class SearchTerm < ActiveRecord::Base
   belongs_to :list
+  has_many :users, :through => :users_search_terms
   has_many :search_term_urls
   has_many :urls, :through => :search_term_urls
 end
