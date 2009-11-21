@@ -8,14 +8,12 @@ class TwitterSearch
   end
 
   def get_links
-    puts "Searching for #{@search_string}"
     search.each do |tweet|
       if search_urls = tweet.text.match(/(http:\/\/[^\s]+)/)
         search_urls.captures.each do |path|
           root_path, title = get_root_url(path)
           url_source = UrlSource.find_or_create_by_name("Twitter")
           url = Url.find_by_url_and_source_identifier_and_url_source_id(root_path, tweet.id, url_source.id)
-          puts "abc" unless tweet
           url ||= Url.create(:url => root_path, :source_identifier => tweet.id, :url_source => url_source, :title => title)
           url.search_terms << SearchTerm.find_or_create_by_name(@search_string)
         end

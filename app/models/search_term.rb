@@ -15,4 +15,6 @@ class SearchTerm < ActiveRecord::Base
   has_many :users, :through => :users_search_terms
   has_many :search_term_urls
   has_many :urls, :through => :search_term_urls
+  
+  validates_uniqueness_of :name
 end

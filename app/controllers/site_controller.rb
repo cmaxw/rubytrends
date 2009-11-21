@@ -2,7 +2,7 @@ class SiteController < ApplicationController
   def index
     @twitter_urls = UrlSource.find_by_name("Twitter").urls.find(:all,
       :select => "count(urls.url) as count, urls.*",
-      :conditions => "created_at > DATE_SUB(CURDATE(), INTERVAL 1 day)",
+      :conditions => "urls.created_at > DATE_SUB(CURDATE(), INTERVAL 1 day)",
       :order => "count DESC",
       :group => "urls.url",
       :limit => 10)

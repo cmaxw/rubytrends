@@ -1,0 +1,32 @@
+<div>
+<h1>Twitter</h1>
+
+<ul>
+<% @twitter_urls.each do |url| %>
+  <li><%= link_to url.title, url.url %>(<%= url.count %>) </li>
+<% end %>
+</ul>
+</div>
+
+<div>
+<h1>Delicious</h1>
+
+<ul>
+<% @delicious_urls.each do |url| %>
+  <li><%= link_to url.title, url.url %>(<%= url.count %>) </li>
+<% end %>
+</ul>
+</div>
+
+<div>
+<h1>Reddit</h1>
+
+<ul>
+<% @reddit_urls.each do |url| %>
+  <li><%= link_to url.title, url.url %> </li>
+<% end %>
+</ul>
+</div>
+
+
+

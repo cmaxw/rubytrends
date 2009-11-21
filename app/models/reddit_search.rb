@@ -11,9 +11,11 @@ class RedditSearch
   end
 
   def get_links
-    source = "http://www.reddit.com/r/ruby.rss" # url or local file
+    source = "http://www.reddit.com/r/#{@search_term}.rss" # url or local file
     content = "" # raw content of rss feed will be loaded here
-    open(source) do |s| content = s.read end
+    uri = URI.parse(source)
+    content = Net::HTTP.get(uri)
+    #open(source) do |s| content = s.read end
     rss = RSS::Parser.parse(content, false)
     rss.items[0, 10].each do |item|
       link = item.description.split("\">[link]").first.split("a href=\"").last
